@@ -1,0 +1,7 @@
+$primary-color: #0066b3; //#0066b3
+$font: "Poppins", sans-serif;
+
+:export {
+  primaryColor: $primary-color;
+  font: $font;
+}

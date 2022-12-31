@@ -1,0 +1,15 @@
+@use "/src/assets/scss/variables" as variables;
+
+$themeColor: variables.$primary-color;
+@import "swiper/scss";
+@import "swiper/scss/pagination";
+@import "swiper/scss/navigation";
+
+.image-slider {
+  img {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: calc(100vh - 94.06px);
+  }
+}
