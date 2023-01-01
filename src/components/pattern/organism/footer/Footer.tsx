@@ -1,8 +1,18 @@
+import Box from "@mui/material/Box";
+
 const Footer = () => {
   return (
-    <footer style={{ textAlign: "center" }}>
+    <Box
+      component="footer"
+      sx={{
+        backgroundColor: "secondary.main",
+        color: "white",
+        textAlign: "center",
+      }}
+      py={1}
+    >
       Copyright © {new Date().getFullYear()} by Saylani Welfare Int Trust
-    </footer>
+    </Box>
   );
 };
 export default Footer;

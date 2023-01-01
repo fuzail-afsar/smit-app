@@ -1,3 +1,4 @@
+import NewCourses from "components/pattern/organism/new-courses/NewCourses";
 import ImageSlider from "components/pattern/organism/sliders/swiper-slider/image-slider/ImageSlider";
 import Template from "components/pattern/templates/Template";
 
@@ -11,6 +12,15 @@ const Home = () => {
   return (
     <Template>
       <ImageSlider images={images} />
+      <NewCourses
+        sectionTitle="New Courses"
+        items={[
+          { imagePath: images[0], title: "title", description: "description" },
+          { imagePath: images[1], title: "title", description: "description" },
+          { imagePath: images[2], title: "title", description: "description" },
+          { imagePath: images[2], title: "title", description: "description" },
+        ]}
+      />
     </Template>
   );
 };

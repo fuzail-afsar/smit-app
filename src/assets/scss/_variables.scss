@@ -1,7 +1,9 @@
 $primary-color: #0066b3; //#0066b3
+$secondary-color: #8dc63f;
 $font: "Poppins", sans-serif;
 
 :export {
   primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
   font: $font;
 }

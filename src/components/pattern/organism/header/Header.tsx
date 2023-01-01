@@ -55,6 +55,7 @@ const Header: React.FC<HeaderProps> = ({
                   display: { xs: "none", sm: "block" },
                 },
               }}
+              buttonsProps={{ sx: { fontWeight: 600, color: "secondary" } }}
             />
             {/* Mobile Menu */}
             <IconButton
