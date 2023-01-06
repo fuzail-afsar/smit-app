@@ -1,11 +1,13 @@
 import Theme from "components/pattern/atoms/theme/Theme";
-import Home from "components/pages/Home";
-
+import Routes from "routes/Routes";
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <Theme>
-      <Home />
-    </Theme>
+    <BrowserRouter>
+      <Theme>
+        <Routes />
+      </Theme>
+    </BrowserRouter>
   );
 }
 
