@@ -1,5 +1,5 @@
 {
-  "name": "smit-assignments",
+  "name": "smit-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,8 +14,10 @@
     "@types/node": "^16.18.10",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
+    "firebase": "^9.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.5",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "sass": "^1.57.1",
